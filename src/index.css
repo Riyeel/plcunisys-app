@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+*,
+html {
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  min-height: 84vh;
+  text-align: center;
+  padding: 5px;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: linear-gradient(to bottom right, #00ffff, #0000ff); /* Mimicking the gradient background */
+  overflow: hidden;
+}
