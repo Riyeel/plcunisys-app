@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import Login from './packages/Login.jsx';
 import ForgotPassword from './components/ForgotPassword.jsx';
 import ResetPassword from './components/ResetPassword.jsx';
-import AdminDashboard from './packages/AdminDashboard.js'; // CORRECTED: Capital 'A' and 'D' 
+import AdminDashboard from './packages/AdminDashboard.jsx'; // CORRECTED: Capital 'A' and 'D' 
 import './index.css';
 
 const App = () => {

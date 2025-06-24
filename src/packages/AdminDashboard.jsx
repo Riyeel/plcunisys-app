@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 
 // CORRECTED: Ensure exact casing (PascalCase) and .jsx extension for all imports
 import Appointments from '../admin/Appointments.jsx';
-import Patients from '../admin/Patients.js'; // Corrected: Capital 'P' in import and path
+import Patients from '../admin/Patients.jsx'; // Corrected: Capital 'P' in import and path
 import Staff from '../admin/staff.jsx';     // Corrected: Capital 'S' in import and path
 import Services from '../admin/Services.jsx';
 import Inventory from '../admin/Inventory.jsx';
@@ -170,7 +170,7 @@ const AdminDashboard = ({ onLogout, navigateTo, loggedInUser }) => {
           </div>
           <div className="flex-none flex items-center gap-2">
             <button
-              className="btn btn-ghost btn-sm normal-case"
+              className="btn btn-ghost btn-sm normal-case transform transition-all duration-300 hover:scale-105"
               onClick={() => setActiveSection('profile')}
             >
               Profile
